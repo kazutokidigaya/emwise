@@ -87,10 +87,12 @@ const UsersList = () => {
         </div>
       </div>
       {loading ? (
-        <Button className="w-full my-4 border-[2px] border-gray-200">
-          <Loader2 className="mr-2 h-4 w-4 animate-spin  " />
-          Please wait...
-        </Button>
+        <div className="max-w-6xl">
+          <Button className="w-full my-4 border-[2px] border-gray-200">
+            <Loader2 className="mr-2 h-4 w-4 animate-spin  " />
+            Please wait...
+          </Button>
+        </div>
       ) : (
         <>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

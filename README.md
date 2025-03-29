@@ -1,13 +1,51 @@
-# React + Vite
+Welcome to **EmployWise**!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a friendly, responsive user management app built with React and Vite. It connects with the Reqres API to make handling your users a breeze—from logging in to updating or removing user records.
 
-Currently, two official plugins are available:
+Check it out live: [https://emwise.vercel.app/](https://emwise.vercel.app/)  
+GitHub Repo: [https://github.com/kazutokidigaya/emwise](https://github.com/kazutokidigaya/emwise)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What You Can Do
 
-## Expanding the ESLint configuration
+- **Easy Login & Secure Access:**
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# emwise
+  - Log in effortlessly with preset credentials.
+  - I have used React Context to keep track of user login, so only user can access the dashboard.
+
+- **User Management Made Simple:**
+
+  - Browse a paginated list of users directly from the Reqres API.
+  - Quickly search, filter, edit, or delete users and get instant feedback.
+
+- **A Clean, Modern Look:**
+
+  - Enjoy a modern UI with Tailwind CSS.
+  - I have used shadcn components for that modern feel.
+  - for real-time updates and notifications i have used si=onner.
+
+## Installation & Setup
+
+### 1. Clone the Repository
+
+Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/kazutokidigaya/emwise.git
+cd emwise
+```
+
+## 2. Install Dependencies
+
+### Install the required packages:
+
+```bash
+npm install
+```
+
+## 3. Start the Application
+
+### Run the development server:
+
+```bash
+npm run dev
+```
